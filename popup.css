@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.popup-container {
+  width: 300px;
+  height: 200px;
+  background-color: #FFA500; /* Orange */
+  color: #000; /* Black */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.centered-button {
+  background-color: #000; /* Black */
+  color: #FFA500; /* Orange */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-image {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  margin-bottom: 10px; /* Add some space between the image and the button */
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}

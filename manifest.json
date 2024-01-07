@@ -10,7 +10,7 @@
       {
         "matches": ["*://www.faceit.com/ru/players/*/stats/cs2"],
         "js": ["content.js"],
-        "css": ["styles.css"]
+        "css": ["popup.css"]
       }
     ],
     "action": {
